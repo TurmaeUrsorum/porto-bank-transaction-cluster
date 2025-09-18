@@ -14,6 +14,8 @@ dependencies:
   - matplotlib
   - seaborn
   - openpyxl
+  - scikit-learn-extra
+  - xgboost
 
   # Deep Learning
   # - pytorch
@@ -45,9 +47,13 @@ dependencies:
   - kedro
   # - dvc
 
+  # Elbow Method
+  - yellowbrick
+
   # Pip-only packages
-  # - pip:
-  #     - ydata-profiling   # Auto EDA
-  #     - streamlit         # Dashboard cepat
-  #     - fastapi           # Serving model
-  #     - uvicorn
+  - pip:
+      # - ydata-profiling   # Auto EDA
+      # - streamlit         # Dashboard cepat
+      # - fastapi           # Serving model
+      # - uvicorn
+      - gower
